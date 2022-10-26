@@ -1,0 +1,77 @@
+body{width: 1440px;
+    height: 689px;
+    font-family: 'Public Sans', sans-serif;
+}
+
+picture{
+    margin: 129px 21px;
+    display: flex;
+    gap: 20px;
+   
+}
+.texto{
+    color: white;
+}
+
+.img-rome{
+    position: relative;
+}
+
+.rome{
+    position: absolute;
+    bottom:67px;
+    left: 26px;
+
+}
+
+
+.img-boat{
+    position: relative;
+}
+
+.boat{
+    position: absolute;
+    bottom:67px;
+    left: 26px;
+}
+
+
+.img-sand-and-sea{
+    position: relative;
+}
+.sand-and-sea{
+    position: absolute;
+    bottom:67px;
+    left: 26px;
+}
+
+
+.img-starry-night{
+    position: relative;
+}
+.starry-night{
+    position: absolute;
+    bottom:67px;
+    left: 26px;
+}
+
+
+p{
+    font-size: 30px;
+    font-weight: 700;
+}
+span{
+    font-size: 17px;
+    font-weight: 300;
+}
+
+@media(max-width:1400px ){
+    picture{
+        max-width: 900px;
+        margin: 45px 20px;
+        display: flex;
+        flex-direction: column;
+        gap: 0;
+        
+    }
+}
